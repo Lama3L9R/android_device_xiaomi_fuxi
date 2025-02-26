@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/fuxi/fuxi-vendor.mk)
 
+# MI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.fuxi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fuxi.rc \
