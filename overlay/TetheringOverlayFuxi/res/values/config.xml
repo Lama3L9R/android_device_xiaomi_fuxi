@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From https://cs.android.com/android/platform/superproject/+/android15-qpr1-release:packages/modules/Wifi/service/ServiceWifiResources/res/values/overlayable.xml -->
+    <bool translatable="false" name="config_wifiSoftap5ghzSupported">true</bool>
+    <bool translatable="false" name="config_wifiSoftap6ghzSupported">true</bool>
+    <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
+    <bool translatable="false" name="config_wifi6ghzSupport">true</bool>
+</resources>
