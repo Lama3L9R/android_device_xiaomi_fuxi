@@ -29,7 +29,8 @@ PRODUCT_PACKAGES += \
     ApertureResFuxi \
     FrameworkResOverlayFuxi \
     SystemUIOverlayFuxi \
-    SettingsOverlayFuxi
+    SettingsOverlayFuxi \
+	TetheringOverlayFuxi
 
 # Sensors
 PRODUCT_PACKAGES += \
