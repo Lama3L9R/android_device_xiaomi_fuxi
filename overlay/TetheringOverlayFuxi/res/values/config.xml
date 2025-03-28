@@ -5,6 +5,6 @@
     <bool translatable="false" name="config_wifiSoftap6ghzSupported">true</bool>
     <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
     <bool translatable="false" name="config_wifi6ghzSupport">true</bool>
-    <string translatable="false" name="config_wifiSoftap5gChannelList">true</string>
-    <string translatable="false" name="config_wifiSoftap6gChannelList">true</string>
+    <string translatable="false" name="config_wifiSoftap5gChannelList"></string>
+    <string translatable="false" name="config_wifiSoftap6gChannelList"></string>
 </resources>

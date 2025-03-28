@@ -30,7 +30,7 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayFuxi \
     SystemUIOverlayFuxi \
     SettingsOverlayFuxi \
-	TetheringOverlayFuxi
+	WifiOverlayFuxi 
 
 # Sensors
 PRODUCT_PACKAGES += \
