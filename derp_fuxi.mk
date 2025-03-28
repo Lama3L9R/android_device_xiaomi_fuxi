@@ -21,3 +21,4 @@ PRODUCT_MODEL := 2211133C
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := Xiaomi/fuxi/fuxi:15/AQ3A.240912.001/OS2.0.3.0.VMCCNXM:user/release-keys
+DERP_BUILDTYPE := Gay # Match modified generate_json_build_info.sh
