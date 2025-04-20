@@ -683,7 +683,6 @@ odm/lib64/libcom.xiaomi.metadatautils.so
 odm/lib64/libcom.xiaomi.pluginutils.so
 odm/lib64/libcommonchiutils.so
 odm/lib64/libdeflicker.so
-odm/lib64/libdeflickerNM.so
 odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
 odm/lib64/libellv.so

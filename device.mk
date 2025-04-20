@@ -256,7 +256,8 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayCommon \
     FrameworkResOverlayFuxi \
     SystemUIOverlayFuxi \
-    SettingsOverlayFuxi
+    SettingsOverlayFuxi \
+	WifiOverlayFuxi
 
 # Partitions
 PRODUCT_PACKAGES += \
@@ -436,3 +437,9 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libwfdaac_vendor
+
+# Add SukiSU Manager
+$(call inherit-product, packages/apps/ZakoZakoZako/zako.mk)
+
+# Add ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
